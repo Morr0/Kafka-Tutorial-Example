@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStreaming.Domain", "EventStreaming.Domain\EventStreaming.Domain.csproj", "{DAB68F72-9DC2-4A9F-87F7-4A533864CBFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStreaming.PublicApi", "EventStreaming.PublicApi\EventStreaming.PublicApi.csproj", "{E53CE080-696E-4410-B993-1E3A1CD8071D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStreaming.Consumer", "EventStreaming.Consumer\EventStreaming.Consumer.csproj", "{CFAA45A7-8EB4-4923-A03C-A3717FA3739E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB68F72-9DC2-4A9F-87F7-4A533864CBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB68F72-9DC2-4A9F-87F7-4A533864CBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB68F72-9DC2-4A9F-87F7-4A533864CBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB68F72-9DC2-4A9F-87F7-4A533864CBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53CE080-696E-4410-B993-1E3A1CD8071D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53CE080-696E-4410-B993-1E3A1CD8071D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53CE080-696E-4410-B993-1E3A1CD8071D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53CE080-696E-4410-B993-1E3A1CD8071D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAA45A7-8EB4-4923-A03C-A3717FA3739E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAA45A7-8EB4-4923-A03C-A3717FA3739E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAA45A7-8EB4-4923-A03C-A3717FA3739E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAA45A7-8EB4-4923-A03C-A3717FA3739E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
