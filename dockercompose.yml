@@ -1,4 +1,7 @@
 ﻿version: "3"
+networks:
+  kafka:
+    driver: bridge
 services:
   zookeeper:
     image: bitnami/zookeeper
@@ -6,6 +9,8 @@ services:
       - "2181:2181"
     environment:
       ALLOW_ANONYMOUS_LOGIN: "yes"
+    networks:
+      - kafka
   kafka:
     depends_on:
       - zookeeper
@@ -16,3 +21,6 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE: "true"
       ALLOW_PLAINTEXT_LISTENER: "yes"
+      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://localhost:9092"
+    networks:
+      - kafka
